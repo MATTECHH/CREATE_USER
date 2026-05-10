@@ -1,16 +1,195 @@
-# React + Vite
+# 🚀 User Registration System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema de cadastro desenvolvido com foco em praticar conceitos modernos de frontend com **React**, componentização, hooks customizados, animações e consumo de API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+Adicione aqui um print ou GIF do projeto funcionando.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Exemplo:
 
-## Expanding the ESLint configuration
+```txt
+/assets/project-preview.png
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🌐 Deploy
+
+Projeto online:
+
+*(adicione sua URL do GitHub Pages)*
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+* ⚛️ **React**
+* ⚡ **Vite**
+* 🎨 **Tailwind CSS**
+* 🛣️ **React Router**
+* 🎬 **Framer Motion**
+* 🌐 Fetch API
+
+---
+
+## ✨ Funcionalidades
+
+### 📝 Cadastro de usuários
+
+* Inserção de nome
+* Inserção de email
+* Validação de campos
+* Botão desabilitado quando formulário está vazio
+
+### ⚡ Feedback em tempo real
+
+Estados do formulário:
+
+* ✍️ Escrevendo
+* ⏸️ Parou
+* 📤 Enviando...
+* ✅ Enviado
+
+### 📦 Consumo de API
+
+Operações realizadas:
+
+* `GET` → listar usuários cadastrados
+* `POST` → cadastrar novo usuário
+
+### 🎬 Interface dinâmica
+
+* Menu animado
+* Transições suaves
+* Hover effects
+* Responsividade
+
+---
+
+## 🧠 Conceitos praticados
+
+### Hooks do React
+
+* `useState`
+* `useEffect`
+* `useReducer`
+* `useRef`
+
+### Hooks customizados
+
+#### `useData`
+
+Responsável por:
+
+* Buscar dados da API
+* Popular lista de usuários
+
+#### `useForm`
+
+Responsável por:
+
+* Gerenciar inputs
+* Controlar estados do formulário
+* Realizar envio via POST
+
+---
+
+## 📂 Estrutura do projeto
+
+```bash
+src/
+├── components/
+│   └── NavBar.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   └── About.jsx
+│
+├── hooks/
+│   ├── useData.jsx
+│   └── useForm.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🚀 Como executar localmente
+
+### 1. Clonar repositório
+
+```bash
+git clone <url-do-repositorio>
+```
+
+### 2. Entrar na pasta
+
+```bash
+cd nome-do-projeto
+```
+
+### 3. Instalar dependências
+
+```bash
+npm install
+```
+
+### 4. Rodar projeto
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Build
+
+```bash
+npm run build
+```
+
+---
+
+## 🌍 Deploy
+
+```bash
+npm run deploy
+```
+
+Deploy realizado via **GitHub Pages**.
+
+---
+
+## 📚 Aprendizados
+
+Durante esse projeto foram praticados:
+
+✅ Organização de componentes
+✅ Separação de responsabilidades
+✅ Hooks customizados
+✅ Requisições assíncronas
+✅ Manipulação de estado complexo
+✅ UI moderna
+✅ Clean Code
+✅ Responsividade
+
+---
+
+## 👨‍💻 Autor
+
+**Mateus Monteiro Ramos**
+
+Full Stack Developer.
+
+* **GitHub**
+* **LinkedIn**
+
+---
+
+## 📄 Licença
+
+MIT License.
