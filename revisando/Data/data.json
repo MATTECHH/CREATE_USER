@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "82C8SYwIVE4",
+      "name": "Mateus Monteiro Ramos",
+      "email": "devteus.officeti@gmail.com"
+    },
+    {
+      "name": "Aran Monteiro Ramos",
+      "email": "aranback.officeti@gmail.com",
+      "id": "fhNUKzkYuno"
+    },
+    {
+      "name": "Ivanir Amaro Monteiro Ramos",
+      "email": "ivaniramaro322@gmail.com",
+      "id": "kBHSqqqOTw4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
