@@ -20,7 +20,7 @@ Exemplo:
 
 Projeto online:
 
-*(adicione sua URL do GitHub Pages)*
+*https://mattechh.github.io/CREATE_USER/*
 
 ---
 
