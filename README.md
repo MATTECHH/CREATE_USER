@@ -4,15 +4,7 @@ Sistema de cadastro desenvolvido com foco em praticar conceitos modernos de fron
 
 ---
 
-## 📸 Preview
 
-Adicione aqui um print ou GIF do projeto funcionando.
-
-Exemplo:
-
-```txt
-/assets/project-preview.png
-```
 
 ---
 
